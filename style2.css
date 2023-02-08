@@ -1,0 +1,51 @@
+
+
+section 
+{
+    padding: 10px;
+
+}
+
+.row 
+{
+    position : relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between ;
+    font-family: 'Gentium Book Plus', serif;
+
+}
+
+
+.row .col50 
+{
+    position: relative;
+    width:48%;
+
+}
+
+
+.intro{
+
+    font-family:'Satisfy', cursive;
+    color: black;
+    font-weight: 300;
+
+}
+
+.intro span 
+{
+    color:rgb(78, 22, 78);
+    font-weight: 700;
+}
+em b{
+    color:rgb(78, 22, 78);
+}
+
+.imp
+{
+    color:rgb(78, 22, 78);
+    font-weight:bold;
+    font-style : italic ;
+
+}

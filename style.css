@@ -1,0 +1,148 @@
+
+
+
+
+*
+{
+margin:0;
+padding: 0;
+box-sizing : border-box;
+font-family: 'Gentium Book Plus', serif;
+}
+
+body
+{
+    min-height: 1000px;
+}
+
+p
+{
+font-size: 300;
+color:black ;
+
+}
+
+.banner 
+{
+    position:relative ;
+    width: 100%;
+    min-height:100vh;
+    display:flex ;
+    justify-items :center;
+    align-items: center ;
+    background : url("images.jpeg");
+    background-size : cover;
+
+}
+
+.banner .content
+{
+    max-width:900px ;
+    text-align: center;
+    
+
+}
+
+
+.banner .content h2
+{
+font-size: 5em;
+color:#ACAEED;
+font-family: 'Satisfy', cursive;
+text-align : center;
+}
+
+.banner .content p
+{
+    font-size: 1em;
+    color: black;
+    font-family: 'Gentium Book Plus', serif;
+    text-align : center;
+}
+
+
+.btt
+{
+font-size: 1em;
+color: white;
+background: #ff0157;
+display: inline-block;
+padding: 10px 30px;
+margin-top:20px;
+text-transform : uppercase;
+text-decoration : none;
+letter-spacing : 2px;
+transition: 0.5s;
+}
+
+.btt:hover
+{
+    letter-spacing:6px;
+    color:black;
+
+}
+
+header
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index : 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+
+header.sticky
+{
+    background:rgb(213, 235, 235);
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+header .logo
+{
+    color: black; 
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    font-family:'Satisfy', cursive;
+}
+
+header .logo span
+{
+    color: rgb(171, 171, 6);
+}
+
+header .navig
+{
+    position: relative;
+    display:flex;
+
+}
+
+header .navig li
+{
+    list-style: none;
+    margin-left : 30px;
+}
+
+
+header .navig li a
+{
+    text-decoration:none;
+    color:rgb(78, 22, 78);
+    font-weight: 900;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+header .navig li a:hover
+{
+    opacity: 0.7;
+    letter-spacing : 2px;
+}
